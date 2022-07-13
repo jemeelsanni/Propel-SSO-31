@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@font-face {
+    font-family:'Gilroy';
+    src: url('Gilroy-Regular.ttf');
+    
+}
+@font-face {
+    font-family:'Gilroy-bold';
+    src: url('Gilroy-Bold.ttf');    
+}
+
+@font-face {
+    font-family:'Gilroy-semibold';
+    src: url('Gilroy-SemiBold.ttf');    
+}
+
+@font-face {
+    font-family:'Gilroy-medium';
+    src: url('Gilroy-Medium.ttf');    
+}
+
+body {
+    width: inherit;
+    background-color: #ffffff;
+}
+
+.logo-container{
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #F0F1F1;
+    background:#F9F7F5;
+    border-radius: 12px;
+    padding: 8px 36px 8px 8px;
+    margin-left: 8px;
+}
+
+.logo > div {
+    margin-top: 8px;
+    margin-left: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+
+}
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #F9F7F5;
+    overflow-x: hidden;
+    
+}
+
+.a{
+    padding-top: 72px;
+}
+
+a > img{
+    margin-right: 4px;
+}
+  
+.sidenav a {
+    padding: 6px 6px 16px 32px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #384747;
+    display: block;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.lefthead-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    right: 0;
+    position: fixed;
+    padding-top: 12px;
+    padding-right: 12px;
+}
+
+.lefthead-container > div {
+    gap: 8px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px;
+    align-items: center;
+}
+
+.profile > div{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+}
+
+.drop{
+    height: 8px;
+    width: 8px;
+}
+
+#circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.cont {
+    text-align: center; 
+    padding-top: 66px;
+}
+
+.line {
+    margin-top:0;
+    height: 1px;
+    width: 100%;
+    background: #D6DBDB;
+}
+
+.main{
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 48px;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.job-prop {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.01em;
+  padding-bottom: 4px;
+}
+.join-pool{
+    display: flex;
+    gap: 12px;
+}
+
+
+
+.join-pool > button{
+  border: 1px solid #D6DBDB;
+  border-radius: 12px 12px 0 0;
+  background:#FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #333333;
+  padding: 8px;
+}
+
+.conti{
+    text-align: center; 
+}
+
+.lin {
+    margin-top:0;
+    height: 1px;
+    width: 100%;
+    background: #D6DBDB;
+}
+
+.nav-dir{
+    display: flex;
+    gap: 4px;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.name{
+    margin-top: 72px;
+    padding: 0 0 0 76px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.t-name{
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+    padding-left: 52px;
+    padding-bottom: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.left-main{
+    width: 75%;
+    padding-right: 24px;
+    background: #FFFFFF;
+    
+}
+
+.right-main{
+    width: 25%;
+    padding-left: 24px;
+    background: #FFFFFF;
+    
+}
+
+.p-info{
+    margin-top: 64px;
+    margin-bottom: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.p-info > span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0045F6;
+}
+
+.personal-info{
+    margin-top: 64px;
+}
+
+.info-align{
+    display: flex;
+    gap: 114px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #384747;
+}
+
+.info-align > div >span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.inf-align{
+    display: flex;
+    gap: 138px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #384747;
+}
+
+.inf-align > div >span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.about-me{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #384747;
+}
+
+.about-me > span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.talent-pend{
+    background: #FACC9E;
+    border-radius: 8px;
+    padding: 10px 8px;
+    width: 178px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 24px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 0 0 12px 12px;  
+}
+  
+.grid{
+    margin-bottom: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #384747;
+}
+
+.grid > span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+}
+
+.skill{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #384747;
+    margin-bottom: 64px;
+}
+
+.skill > span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+}
+
+.manage{
+    width: 310px;
+height: 116px;
+}
+
+.manage > img{
+    border-radius: 16px 16px 0 0 ;
+
+}
+
+.manage > div{
+    background: #F1EEF6;
+    border-radius: 0 0 16px 16px;
+    padding: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    
+}
+
+.resume-update{
+    background: #F4F8FC;
+    border: 1px solid #D7E8F4;
+    border-radius: 16px;
+    padding: 12px;
+    margin-top: 32px;
+}
+
+.resume-update > .h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.resume-update > .p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 165%;
+    color: #788787;
+}
+
+.dashed{
+    border: 1px dashed #788787;
+    border-radius: 8px;
+    padding: 8px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 165%;
+    letter-spacing: 0.02em;
+    color: #788787;
+}
+
+.upd{
+    display: flex;
+    justify-content: space-between;
+}
+
+.upd > div > span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    color: #0045F6;
+}
+
+.upd > div{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-transform: lowercase;
+    color: #788787;
+
+}
+
+.task{
+    background: #F9F7F5;
+    border: 1px solid #F1EAE4;
+    border-radius: 16px;
+    padding: 18px;
+    margin-top: 32px;
+}
+
+.task > .h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #384747;
+    
+}
+
+.task > .p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #788787;
+}
+
+input[type="checkbox"] {
+    appearance:none;
+    margin:0 16px;
+    width: 18px;
+    height: 18px;
+    background: #E9F1F0;
+    border: 1.8px solid #0080FF;
+    border-radius: 6px;
+    transition: .2s;
+    cursor:pointer;
+    color: #363945;
+}
+
+label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #384747;
+
+}
+
+
+.hp{
+    background: #00CFFF;
+    border-radius: 16px;
+    padding: 18px;
+    margin-top: 64px;
+}
+
+.hp > .h{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;    
+}
+
+.hp > .p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 165%;
+    letter-spacing: 0.02em;
+    color: #384747;
+}
+
+.hp > .but{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
